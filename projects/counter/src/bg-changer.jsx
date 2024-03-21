@@ -10,7 +10,7 @@ function BgChanger() {
   }
 
   return (
-    <div style={{ backgroundColor: background }}>
+    <div class="changer" style={{ backgroundColor: background }}>
       <button onClick={change}>Change Background</button>
     </div>
   );

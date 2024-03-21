@@ -8,9 +8,9 @@ import BgColorSelector from './bg-colorselector.jsx'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    {/* <App/>
-    <Counter/> 
-    <BgChanger/>  */}
-    <BgColorSelector/>
+     {/* <App/>
+    <Counter/>  */}
+    {/* <BgChanger/>  */}
+    <BgColorSelector/> 
   </React.StrictMode>,
 )
