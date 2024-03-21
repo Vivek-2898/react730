@@ -14,7 +14,7 @@ function BgColorSelector() {
   }
 
   return (
-    <div style={{ backgroundColor: background }}>
+    <div class="changer" style={{ backgroundColor: background }}>
       <h1>Background Color Changer</h1>
       <input
         type="color"
