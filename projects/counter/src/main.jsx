@@ -8,6 +8,7 @@ import BgColorSelector from './bg-colorselector.jsx'
 import CounterWithEvenOdd from './Countereven.jsx'
 import Modal from './Modal.jsx'
 import Useeffect from './Useeffect.jsx'
+import Moviesearch from './Moviesearch.jsx'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
@@ -17,6 +18,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     {/* <BgColorSelector/>  */}
     {/* <CounterWithEvenOdd/> */}
     {/* <Modal/> */}
-    <Useeffect/>
+     {/* <Useeffect/>  */}
+     <Moviesearch/>
   </React.StrictMode>,
 )
