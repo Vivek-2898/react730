@@ -5,12 +5,14 @@ import Counter from './Counter.jsx'
 import './index.css'
 import BgChanger from './bg-changer.jsx'
 import BgColorSelector from './bg-colorselector.jsx'
+import CounterWithEvenOdd from './Countereven.jsx'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
      {/* <App/>
     <Counter/>  */}
     {/* <BgChanger/>  */}
-    <BgColorSelector/> 
+    {/* <BgColorSelector/>  */}
+    <CounterWithEvenOdd/>
   </React.StrictMode>,
 )
