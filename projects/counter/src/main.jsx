@@ -6,6 +6,7 @@ import './index.css'
 import BgChanger from './bg-changer.jsx'
 import BgColorSelector from './bg-colorselector.jsx'
 import CounterWithEvenOdd from './Countereven.jsx'
+import Modal from './Modal.jsx'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
@@ -13,6 +14,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <Counter/>  */}
     {/* <BgChanger/>  */}
     {/* <BgColorSelector/>  */}
-    <CounterWithEvenOdd/>
+    {/* <CounterWithEvenOdd/> */}
+    <Modal/>
   </React.StrictMode>,
 )
