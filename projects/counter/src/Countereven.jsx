@@ -10,6 +10,8 @@ function CounterWithEvenOdd() {
   const handleDecrement = () => {
     if (count > 0) {
       setCount(prevCount => prevCount - 1);
+    } else {
+      alert("You can't decrement less than 0");
     }
   };
 
@@ -18,9 +20,12 @@ function CounterWithEvenOdd() {
       <h1>Counter: {count}</h1>
       <h2>{count % 2 === 0 ? 'Even' : 'Odd'}</h2>
       <button onClick={handleIncrement}>Increment</button>
-      <button onClick={handleDecrement} disabled={count <= 0}>
-        Decrement
-      </button>
+      {count > 0 && (
+        <button onClick={handleDecrement}>
+          Decrement
+        </button>
+      )}
+      {count <= 0 && <p>You can't decrement less than 0</p>}
     </div>
   );
 }
