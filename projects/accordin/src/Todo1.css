@@ -1,0 +1,46 @@
+.todo-app {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    text-align: center;
+    margin-left: 600px;
+    box-shadow: 5px;
+    color: crimson;
+    background-color:#000;
+  }
+  
+  .tasks {
+    margin-top: 20px;
+  }
+  
+  .task {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .task input[type="checkbox"] {
+    margin-right: 10px;
+  }
+  
+  .task.done {
+    text-decoration: line-through;
+    color: #aaa;
+  }
+  
+  .add-task {
+    margin-top: 20px;
+  }
+  
+  .add-task input[type="text"] {
+    width: 70%;
+    padding: 5px;
+    margin-right: 10px;
+  }
+  
+  .add-task button {
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
