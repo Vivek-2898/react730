@@ -7,6 +7,7 @@ import BgChanger from './bg-changer.jsx'
 import BgColorSelector from './bg-colorselector.jsx'
 import CounterWithEvenOdd from './Countereven.jsx'
 import Modal from './Modal.jsx'
+import Useeffect from './Useeffect.jsx'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
@@ -15,6 +16,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     {/* <BgChanger/>  */}
     {/* <BgColorSelector/>  */}
     {/* <CounterWithEvenOdd/> */}
-    <Modal/>
+    {/* <Modal/> */}
+    <Useeffect/>
   </React.StrictMode>,
 )
