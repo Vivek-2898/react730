@@ -9,6 +9,7 @@ import CounterWithEvenOdd from './Countereven.jsx'
 import Modal from './Modal.jsx'
 import Useeffect from './Useeffect.jsx'
 import Moviesearch from './Moviesearch.jsx'
+import RandomQuote from './RandomQuote.jsx'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
@@ -19,6 +20,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     {/* <CounterWithEvenOdd/> */}
     {/* <Modal/> */}
      {/* <Useeffect/>  */}
-     <Moviesearch/>
+     {/* <Moviesearch/> */}
+     <RandomQuote/>
   </React.StrictMode>,
 )
