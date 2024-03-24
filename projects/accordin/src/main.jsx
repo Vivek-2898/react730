@@ -7,6 +7,7 @@ import './Todo.css'
 import TodoApp from './TodoApp.jsx'
 import Todo1 from './Todo1.jsx'
 import ContextApiDemo from './ContextApiDemo.jsx'
+import CountdownTimer from './CountDownTimer.jsx'
 
 export const mainContext = createContext()
 ReactDOM.createRoot(document.getElementById('root')).render(
@@ -14,6 +15,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     {/* <App /> */}
     {/* <TodoApp/> */}
      {/* <Todo1/> */}
-     <ContextApiDemo/>
+     {/* <ContextApiDemo/> */}
+     <CountdownTimer/>
   </React.StrictMode>
 )
