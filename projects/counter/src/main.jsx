@@ -10,6 +10,7 @@ import Modal from './Modal.jsx'
 import Useeffect from './Useeffect.jsx'
 import Moviesearch from './Moviesearch.jsx'
 import RandomQuote from './RandomQuote.jsx'
+import LifeCycleMethods from './lifeCycleMethods.jsx'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
@@ -21,6 +22,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     {/* <Modal/> */}
      {/* <Useeffect/>  */}
      {/* <Moviesearch/> */}
-     <RandomQuote/>
+     {/* <RandomQuote/> */}
+     <LifeCycleMethods/>
   </React.StrictMode>,
 )
