@@ -9,6 +9,7 @@ import Todo1 from './Todo1.jsx'
 import ContextApiDemo from './ContextApiDemo.jsx'
 import CountdownTimer from './CountDownTimer.jsx'
 import UnControlledUseRef from './UnControlledUseRef.jsx'
+import ControlledForm from './ControlledForm.jsx'
 
 export const mainContext = createContext()
 ReactDOM.createRoot(document.getElementById('root')).render(
@@ -18,6 +19,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
      {/* <Todo1/> */}
      {/* <ContextApiDemo/> */}
      {/* <CountdownTimer/> */}
-     <UnControlledUseRef/>
+     {/* <UnControlledUseRef/> */}
+     <ControlledForm/>
   </React.StrictMode>
 )
